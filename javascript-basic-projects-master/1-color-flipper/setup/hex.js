@@ -9,6 +9,7 @@ btn.addEventListener('click', function(){
     console.log(pick);
     
     // use the pick hex to choose a random element of hex
+    color.textContent = pick;
     document.body.style.backgroundColor = pick;
 })
 
